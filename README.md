@@ -34,7 +34,7 @@
 
 -   Java 17
 -   Spring Boot 3.4
--   Spring Web, Spring WebFlux
+-   Spring Web
 -   MyBatis
 -   MySQL
 -   Lombok
