@@ -46,7 +46,8 @@ git clone --recurse-submodules <메인 레포 주소>
 
 ## 주요 화면 소개
 
-### 1. 홈/생산현황 화면
+<details>
+<summary>1. 홈/생산현황 화면 (클릭해서 보기/숨기기)</summary>
 
 -   금일 달성률, 금일 불량률: 랜덤 값으로 임의 배정
 -   전체/AGV/로봇암/리프트카/기타 배터리 경고 수 표시
@@ -55,7 +56,10 @@ git clone --recurse-submodules <메인 레포 주소>
 -   캡처 예시:
     ![홈 및 생산현황 화면](images/home.png)
 
-### 3. 물류 장비 리스트 화면
+</details>
+
+<details>
+<summary>2. 물류 장비 리스트 화면 (클릭해서 보기/숨기기)</summary>
 
 -   물류 장비별, 공장별 API 호출 (path variable 적용)
 -   배터리 temp(온도)에 따라 양호/주의/경고 상태 판별
@@ -63,7 +67,10 @@ git clone --recurse-submodules <메인 레포 주소>
 -   캡처 예시:
     ![물류 장비 리스트](images/list.png)
 
-### 4. 물류 장비 상세 정보 화면
+</details>
+
+<details>
+<summary>3. 물류 장비 상세 정보 화면 (클릭해서 보기/숨기기)</summary>
 
 -   장비 정보(모델 번호, 배터리 사이클, 누적거리), 현재 작업 상태(DB 조회)
 -   출발지, 도착지, 알림 로그: 랜덤 데이터
@@ -73,6 +80,19 @@ git clone --recurse-submodules <메인 레포 주소>
     -   배터리 충전/사용 비중 원형 차트
 -   캡처 예시:
     ![장비 상세 정보](images/detail.png)
+
+</details>
+
+## ERD
+
+아래는 데이터베이스 ERD입니다. (클릭해서 보기/숨기기)
+
+<details>
+<summary>ERD 이미지</summary>
+
+![ERD](images/erd.png)
+
+</details>
 
 ## Git 커밋 컨벤션
 
