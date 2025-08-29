@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Hyundai-Autoever-Smart-Factory-2nd/battery3080-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Hyundai-Autoever-Smart-Factory-2nd/battery3080-backend
